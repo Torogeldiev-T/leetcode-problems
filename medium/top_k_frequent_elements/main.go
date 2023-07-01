@@ -42,5 +42,4 @@ one:
 
 func main() {
 	fmt.Println("Salam Aleikum")
-	fmt.Println(topKFrequent([]int{1}, 2))
 }
