@@ -1,4 +1,4 @@
-function threeSumClosest(nums: number[], target: number): number {
+function _threeSumClosest(nums: number[], target: number): number {
     const sortedNums = nums.sort((a, b) => a - b);
     let res = {};
 
