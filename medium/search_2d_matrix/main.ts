@@ -1,6 +1,6 @@
 function searchMatrix(matrix: number[][], target: number): boolean {
     for (let i = 0; i < matrix.length; i++) {
-        let res = search(matrix[i], target);
+        let res = _search(matrix[i], target);
 
         if (res !== -1) {
             return true;
@@ -10,7 +10,7 @@ function searchMatrix(matrix: number[][], target: number): boolean {
     return false
 };
 
-function search(nums: number[], target: number): number {
+function _search(nums: number[], target: number): number {
     let left = 0;
     let right = nums.length - 1;
 
