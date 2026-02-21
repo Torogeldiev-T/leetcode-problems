@@ -1,0 +1,27 @@
+{
+  "name": "leetcode-problems",
+  "version": "1.0.0",
+  "description": "LeetCode problem solutions in multiple languages",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --outDir dist --rootDir . --skipLibCheck",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "leetcode",
+    "algorithms",
+    "data-structures",
+    "typescript",
+    "go"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "base-x": "^5.0.1"
+  }
+}
